@@ -1,0 +1,35 @@
+.deLado{
+    margin-top: 30px;
+    float: left;
+    width: auto;
+    border: 1px solid black;
+}
+.tituloVideo {
+    text-align: center;
+}
+
+.centrado{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
+}
+
+.galeria{
+    margin: 5px;
+    border: 1px solid black;
+    float: left;
+    width: 33vw;
+
+}
+
+div.galeria img {
+    height: 80%;
+    width: 100%;
+    
+}
+
+.descripcion{
+    padding:5px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}

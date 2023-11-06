@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style/contacto.css">
+    <title>Curso de css</title>
+</head>
+
+<body>
+    <header>
+        <h1>Hermanos Gatunos</h1>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="misiones.html">Misiones</a></li>
+                <li><a href="audiovisuales.html">Audiovisuales</a></li>
+                <li><a class="active" href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="contenedor">
+        <form>
+            <label for="Nombre">Nombre:</label>
+            <input type="text" id="Nombre" name="Nombre" placeholder="Escriba aqui su Nombre" required minlength="3">
+
+            <label for="Apellido">Apellido:</label>
+            <input type="text2" id="Apellido" name="Apellido" placeholder="Escriba aqui su Apellido" required
+                minlength="3">
+
+            <label for="Email">Email:</label>
+            <input type="email" id="Email" name="Email" placeholder="Escriba aqui su Email" required>
+
+            <label for="Pais">Pais:</label>
+            <select name="Pais" id="Pais">
+                <option value="Argentina">Argentina</option>
+                <option value="chile">chile</option>
+                <option value="Ecuador">Ecuador</option>
+                <option value="Uruguay">Uruguay</option>
+                <option value="Venezuela">Venezuela</option>
+                <option value="Colombia">Colombia</option>
+                <option value="Mexico">Mexico</option>
+                <option value="Brasil">Brasil</option>
+                <option value="Paraguay">Paraguay</option>
+            </select>
+
+            <textarea name="comentraio" id="comentario" cols="30" rows="10"
+                placeholder="Escriba aqui su comentario"></textarea>
+
+
+
+            <input type="submit" value="Enviar">
+
+        </form>
+    </div>
+
+    <footer>
+        <p>Derechos reservados &copy; 2023</p>
+    </footer>
+</body>
+
+</html>
